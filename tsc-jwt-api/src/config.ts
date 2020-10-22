@@ -1,3 +1,3 @@
 export default{
-    SECRET: "secretJR"
+    SECRET: `${process.env.SECRET}`
 }

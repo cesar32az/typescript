@@ -5,6 +5,8 @@ import { connect } from "mongoose";
     await connect("mongodb://localhost/tsc-jwt-api", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
+      useCreateIndex: true,
+      useFindAndModify: false
     });
     console.log("database is connected");
   } catch (error) {

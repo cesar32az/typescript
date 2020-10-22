@@ -1,7 +1,11 @@
 import app from "./app";
+import dotenv from 'dotenv'
 import './database'
-const main = async () => {
-  await app.listen(app.get("port"));
+
+dotenv.config()
+
+const main = () => {
+  app.listen(app.get("port"));
   console.log("server on port", app.get("port"));
 };
 
