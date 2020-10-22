@@ -5,3 +5,6 @@
     
     # tsc-node-crud
         crud de tareas con typescript usando clases, mongodb, handlebars y express
+
+    # tsc-api-gallery
+        api para poder subir imagenes usando typescript, mongodb, express y multer para subir imagenes

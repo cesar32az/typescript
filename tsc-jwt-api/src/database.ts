@@ -1,13 +1,12 @@
 import { connect } from "mongoose";
-import { mongodb } from "./keys";
 
 (async () => {
   try {
-    await connect(mongodb.URI, {
+    await connect("mongodb://localhost/tsc-jwt-api", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
-    console.log("db is connected");
+    console.log("database is connected");
   } catch (error) {
     console.log(error);
   }
