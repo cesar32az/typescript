@@ -1,0 +1,2 @@
+npm i bcrypt cors express jsonwebtoken mongoose passport passport-jwt passport-local
+npm i -D @types/bcrypt @types/cors @types/express @types/jsonwebtoken @types/mongoose @types/morgan @types/passport @types/passport-jwt morgan tsc-watch typescript
